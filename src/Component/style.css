@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+.navbar {
+    height: 60px;
+    background-color: #0177E3;
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+.flex-column {
+    border-radius: 20px;
+}
+  .bg-white {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-white-rgb),var(--bs-bg-opacity))!important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 20px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: var(--bs-navbar-active-color);
+    background-color: #ffffff;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 20px;
+    margin: 5px;
+}
+.logo{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    margin-right: 40px;
+    margin-left: 50px;
+    font-family: 'Exo 2', sans-serif;
+}
+.btn btn-primary{
+    background-color: #0177E3;
+
+  }
+.gap-5 {
+    gap: 1rem!important;
+    margin-right: 50px;
+}
+  img, svg {
+    vertical-align: middle;
+    padding: 3px;
+}
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+    border-radius: 20px;
+}
